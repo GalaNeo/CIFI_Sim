@@ -1,0 +1,55 @@
+Monster Scaling
+stage 0~99 monster stats formula (S = current stage)
+
+might have small error on crit power and atk speed
+borge
+
+HP 9 + 4xS
+ATK 2.5 + 0.7xS
+regen -0.16 + 0.08xS (0 if <= 0)
+crit chance 3.22% + 0.04xS
+crit power x1.21 + 0.008xS
+attack speed 4.53 - 0.006xS
+
+ozzy
+HP 11 + 6xS
+ATK 1.35 + 0.75xS
+regen -0.08 + 0.1xS (0 if <= 0)
+crit chance 9.94% + 0.06xS
+crit power x1.03 + 0.008xS
+attack speed 3.2 - 0.004xS
+
+Borge
+
+Inscryption #44 x1.08 loot per lvl 10 levels
+Inscryption #27 +24 hp per lvl 10 levels
+Inscryption #24 +0.4 dr per lvl 8 lvls
+Inscryption #23 -0.04 as per lvl 5 lvls
+Inscryption #14 x1.10 loot per lvl 5 lvls
+Inscryption #13 +1 dmg per lvl 9 lvls
+Inscryption #11 +2 effect chance per lvl 3lvls
+Inscryption #4 +0.65 crit chance per lvl 6 lvls
+Inscryption #3 +6hp oer lvl 8 lvls
+
+HP
+
+hp level 106,107,108,109 all give 2.611 each level 110 will give 110/100 + 2.611 so 3.711 then the 2.611 increases by 0.011
+so 0.011 increase per 5 levels on base health
+and additional hp per 5 levels equal to level*0.01
+bonus per 5 lvls: (bonusamounts/2)*(2*0.2+ (bonusamount-1)*0.05)
+bonus increase per 5 lvls: 0.11 * ( (level/5) * ((level/5)+1))/2)
+
+ATK
+
+atk starts 3 power
+0/10
+
+(3 + (lvl * (0.5 + 0.01 * int(lvl / 10))) + inscryptions) * ares
+
+
+loot increases?
+125-133
+27.71  29.13  30.61  32.17  33.81  35.54  37.35  39.26  41.26  43.36
+
+x1.051 every stage
+

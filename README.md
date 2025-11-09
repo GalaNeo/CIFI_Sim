@@ -1,17 +1,17 @@
 # CIFI Hunter Simulation
 
 A modular combat and progression simulator for an incremental-style RPG within CIFI.  
-It models the hunter Borge — built to test balance, stat growth and performance without wasting manual hours in-game.
+It models the hunter Borge from CIFI - built to test balance, stat growth and performance without wasting manual hours in-game.
 
 ---
 
 ##  Features
 
-- **Turn based combat system** — Hunter and enemies trade attacks and regen over time.  
-- **Stat scaling** — levels, relics, and inscryptions affect damage, HP, and regen etc.  
-- **Modular structure** — attributes, upgrades, monsters, and loot are all separate systems.  
-- **Simulation based testing** — evaluate progression pacing or performance instantly.  
-- **Optional performance profiling** — integrated [`pyheat`](https://pypi.org/project/py-heat/) visualization for slow loops.
+- **Turn based combat system** : Hunter and enemies trade attacks and regen over time.  
+- **Stat scaling** : levels, relics, and inscryptions affect damage, HP, and regen etc.  
+- **Modular structure** : attributes, upgrades, monsters are all separate systems.  
+- **Simulation based testing** : evaluate progression pacing or performance instantly.  
+- **Optional performance profiling** : integrated [`pyheat`](https://pypi.org/project/py-heat/) visualization for performance optimizations.
 
 ---
 
